@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "Anja",
+      "name": "Anja Neve",
+      "email": "neve@gmail.com",
+      "password": "1234",
+      "permissionLevel": "MANAGE"
+    },
+    {
+      "id": "2",
+      "userName": "AnKa",
+      "name": "AnKa DELA",
+      "email": "neve@gmail.com",
+      "password": "1234",
+      "permissionLevel": "MANAGE"
+    },
+    {
+      "id": "3",
+      "userName": "Taian",
+      "name": "Taina Lord",
+      "email": "neve@gmail.com",
+      "password": "1234",
+      "permissionLevel": "MANAGE"
+    },
+    {
+      "id": "4",
+      "userName": "Lana",
+      "name": "Lana Leia",
+      "email": "neve@gmail.com",
+      "password": "1234",
+      "permissionLevel": "MANAGE"
+    },
+    {
+      "id": "5",
+      "userName": "Nana",
+      "name": "Nana Banana",
+      "email": "nana@gmail.com",
+      "password": "4321",
+      "permissionLevel": "NONE"
+    },
+    {
+      "userName": "Anaj",
+      "name": "Anaj MoonWalker",
+      "email": "anaj@gmail.com",
+      "password": "4321",
+      "permissionLevel": "NONE",
+      "id": "D7g1DA3"
+    }
+  ]
+}

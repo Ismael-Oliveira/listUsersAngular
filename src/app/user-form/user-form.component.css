@@ -1,0 +1,15 @@
+
+
+.container {
+    margin-top: 30px;
+}
+
+.add-user {
+    width: 60%;
+    margin-bottom: 30px;
+    background-color: #336699;
+}
+
+.btn-add-user {
+    margin-right: 10px;
+}

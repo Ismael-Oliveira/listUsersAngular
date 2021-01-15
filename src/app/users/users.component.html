@@ -1,0 +1,38 @@
+
+<h2>My Users</h2>
+<!-- <ul class="users">
+  <li *ngFor="let user of users" 
+  [class.selected]="user === selectedUser">
+    <a routerLink="/detail/{{user.id}}">
+      <span class="badge">{{user.id}}</span> {{user.name}}
+    </a>
+  </li>
+</ul> -->
+
+<table class="users">
+  <thead>
+    <tr>
+      <td>User Name</td>
+      <td>Name</td>
+      <td>Email</td>
+      <td>Level Permission</td>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.userName}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.permissionLevel}}</td>
+      <td>
+        <a routerLink="/detail/{{user.id}}">
+          Detail
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- <app-user-detail [user]="selectedUser"></app-user-detail> -->
+<!-- <app-user-detail></app-user-detail> -->
