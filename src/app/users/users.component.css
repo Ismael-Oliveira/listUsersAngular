@@ -14,6 +14,12 @@
     height: 1.6em;
     border-radius: 4px;
   } */
+  .list-filter {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .users thead {
     background-color: #336699;
   }

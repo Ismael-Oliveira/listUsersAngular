@@ -1,13 +1,30 @@
 
-<h2>My Users</h2>
-<!-- <ul class="users">
-  <li *ngFor="let user of users" 
-  [class.selected]="user === selectedUser">
-    <a routerLink="/detail/{{user.id}}">
-      <span class="badge">{{user.id}}</span> {{user.name}}
-    </a>
-  </li>
-</ul> -->
+<div class="list">
+  <div class="list-title">
+    <h2>My Users</h2>
+  </div>
+  <div class="list-filter">
+    <div class="filter-button">
+      <button class="btn btn-primary" (click)="getUsers()">All Users</button>
+    </div>
+    <div class="filter-select">
+      <span>Filter by permission</span>
+      <select class="form-control" type="string" id="filter" 
+          [(ngModel)]="permission" (ngModelChange)="onChangePermission()" >
+  
+        <option value="MANAGE">
+          <p>MANAGE</p>
+        </option>
+        <option value="VIEW">
+          <p>VIEW</p>
+        </option>
+        <option value="NONE">
+          <p>NONE</p>
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <table class="users">
   <thead>
