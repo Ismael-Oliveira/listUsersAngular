@@ -47,6 +47,22 @@
       "password": "4321",
       "permissionLevel": "NONE",
       "id": "D7g1DA3"
+    },
+    {
+      "userName": "John",
+      "name": "John Endroad",
+      "email": "john@gmail.com",
+      "password": "12345",
+      "permissionLevel": "VIEW",
+      "id": "Rj8kEDA"
+    },
+    {
+      "userName": "Deiv ",
+      "name": "Deiv WalkDay",
+      "email": "dev@gmail.com",
+      "password": "4321",
+      "permissionLevel": "NONE",
+      "id": "0owEhtm"
     }
   ]
 }

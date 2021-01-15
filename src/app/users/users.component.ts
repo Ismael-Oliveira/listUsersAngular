@@ -31,4 +31,5 @@ export class UsersComponent implements OnInit {
     let filtered = this.users.filter( user => user.permissionLevel === this.permission);
     this.users = filtered;
   }
+
 }

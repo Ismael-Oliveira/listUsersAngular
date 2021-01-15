@@ -12,6 +12,7 @@ import { User } from '../user';
 export class UserFormComponent implements OnInit {
   
   user = {} as User;
+  controlMessage: boolean = false;
   
   constructor(private useService: UserService) { }
 
@@ -19,10 +20,17 @@ export class UserFormComponent implements OnInit {
   }
 
   saveUser(form: NgForm) {
-    // console.log(this.user);
+    this.controlMessage = true;
+
     this.useService.saveUser(this.user).subscribe(() => {
-      this.cleanForm(form);
+      setTimeout(()=> {
+        this.controlMessage = false;
+        this.cleanForm(form);
+      }, 5000);
+      
     });
+
+
   }
 
   // limpa o formulario
